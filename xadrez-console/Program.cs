@@ -4,8 +4,9 @@ using tabuleiro;
 namespace xadrez_console {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
             Tabuleiro tab = new Tabuleiro(8, 8);
+            Tela.imprimirTabuleiro(tab);
+            Console.ReadLine();
         }
     }
 }
